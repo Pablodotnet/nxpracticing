@@ -11,7 +11,7 @@ export interface ProductsDataClient {
 
 export const exampleProducts: Record<string, Product> = {
   '1': { id: '1', name: 'Product 1', price: 100 },
-  '2': { id: '2', name: 'Product 2', price: 200 },
+  '2': { id: '2', name: 'Product 2', price: 400 },
 }
 
 export function createProductsDataClient(): ProductsDataClient {
